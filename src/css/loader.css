@@ -1,0 +1,54 @@
+
+        .overflow, .circle-line {
+          
+            transform: translate(-50%, -50%);
+        }
+        .overflow {
+            z-index: 999;
+        }
+        
+        .circle-line {
+            z-index: 1000;
+        }
+        
+        .circle{
+            width: 20px;
+            height: 20px;
+        }
+        
+        .red {
+            animation: movingUp 1s infinite linear;
+          
+        }
+        
+        .blue {
+            animation: movingUp 1s 0.25s infinite linear;
+           
+        }
+        
+        .green {
+            animation: movingUp 1s 0.5s infinite linear;
+            
+          
+        }
+        
+        .yellow {
+            animation: movingUp 1s 0.75s infinite linear;
+            
+        }
+        
+       
+        
+        @keyframes movingUp {
+            0% {
+            
+                opacity: 1;
+                
+            }
+        
+            100% {
+                opacity: 0;
+            }
+        }
+
+         
